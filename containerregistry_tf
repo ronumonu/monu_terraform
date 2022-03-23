@@ -1,0 +1,7 @@
+resource "azurerm_container_registry" "ronu" {
+  name                = "ronuContainer123"
+  resource_group_name = azurerm_resource_group.containerrg.name
+  location            = azurerm_resource_group.containerrg.location
+  sku                 = "Basic"
+  admin_enabled       = true
+}
