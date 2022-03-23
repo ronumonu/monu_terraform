@@ -49,3 +49,5 @@ resource "azurerm_container_registry" "ronu" {
   sku                 = "Basic"
   admin_enabled       = true
 }
+
+
